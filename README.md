@@ -10,3 +10,7 @@
 - 入力値となる VIN は VIN1~5 でつながっているため、どれか一つを GND or VCC につなげば良い。
 - PULL UP/PULL DOWN 抵抗と、PULL UP/PULL DOWN のための入力をもつ。VIN とは異なる GND or VCC につなげば良い。
 - GIN も GIN1~5 でつながっているため、どれか一つを GND or VCC につなげば良い。
+
+# ライセンス
+
+[CC BY 4.0](hhttps://creativecommons.org/licenses/by-sa/3.0/deed.jp]
