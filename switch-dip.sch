@@ -1,0 +1,406 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 61502EA9
+P 2900 2250
+F 0 "SW1" H 2900 2505 50  0000 C CNN
+F 1 "SW_PUSH" H 2900 2414 50  0000 C CNN
+F 2 "$switch-dip:CherryMX_Choc_1u" H 2900 2250 50  0001 C CNN
+F 3 "" H 2900 2250 50  0000 C CNN
+	1    2900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6150461C
+P 3300 2575
+F 0 "R1" H 3370 2621 50  0000 L CNN
+F 1 "R" H 3370 2530 50  0000 L CNN
+F 2 "$switch-dip:Register" V 3230 2575 50  0001 C CNN
+F 3 "~" H 3300 2575 50  0001 C CNN
+	1    3300 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:GIN GIN1
+U 1 1 61504F8A
+P 3300 3000
+F 0 "GIN1" H 3378 3058 50  0000 L CNN
+F 1 "GIN" H 3300 3000 50  0001 C CNN
+F 2 "$switch-dip:Pin_rect" H 3300 3000 50  0001 C CNN
+F 3 "" H 3300 3000 50  0001 C CNN
+	1    3300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:VIN VIN1
+U 1 1 61505667
+P 2475 1650
+F 0 "VIN1" H 2553 1592 50  0000 L CNN
+F 1 "VIN" H 2475 1800 50  0001 C CNN
+F 2 "$switch-dip:Pin_circle" H 2475 1650 50  0001 C CNN
+F 3 "" H 2475 1650 50  0001 C CNN
+	1    2475 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:OUTPUT O1
+U 1 1 61507F0F
+P 3575 2250
+F 0 "O1" H 3653 2301 50  0000 L CNN
+F 1 "OUTPUT" H 3653 2210 50  0000 L CNN
+F 2 "$switch-dip:Pin_circle" H 3575 2250 50  0001 C CNN
+F 3 "" H 3575 2250 50  0001 C CNN
+	1    3575 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 1800 2475 1900
+Wire Wire Line
+	2475 2250 2600 2250
+Wire Wire Line
+	3200 2250 3300 2250
+Wire Wire Line
+	3300 2425 3300 2250
+Connection ~ 3300 2250
+Wire Wire Line
+	3300 2250 3425 2250
+Wire Wire Line
+	3300 2850 3300 2800
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 6150B39E
+P 4450 2250
+F 0 "SW2" H 4450 2505 50  0000 C CNN
+F 1 "SW_PUSH" H 4450 2414 50  0000 C CNN
+F 2 "$switch-dip:CherryMX_Choc_1u" H 4450 2250 50  0001 C CNN
+F 3 "" H 4450 2250 50  0000 C CNN
+	1    4450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6150B3A4
+P 4850 2575
+F 0 "R2" H 4920 2621 50  0000 L CNN
+F 1 "R" H 4920 2530 50  0000 L CNN
+F 2 "$switch-dip:Register" V 4780 2575 50  0001 C CNN
+F 3 "~" H 4850 2575 50  0001 C CNN
+	1    4850 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:GIN GIN2
+U 1 1 6150B3AA
+P 4850 3000
+F 0 "GIN2" H 4928 3058 50  0000 L CNN
+F 1 "GIN" H 4850 3000 50  0001 C CNN
+F 2 "$switch-dip:Pin_rect" H 4850 3000 50  0001 C CNN
+F 3 "" H 4850 3000 50  0001 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:VIN VIN2
+U 1 1 6150B3B0
+P 4025 1650
+F 0 "VIN2" H 4103 1592 50  0000 L CNN
+F 1 "VIN" H 4025 1800 50  0001 C CNN
+F 2 "$switch-dip:Pin_circle" H 4025 1650 50  0001 C CNN
+F 3 "" H 4025 1650 50  0001 C CNN
+	1    4025 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:OUTPUT O2
+U 1 1 6150B3B6
+P 5125 2250
+F 0 "O2" H 5203 2301 50  0000 L CNN
+F 1 "OUTPUT" H 5203 2210 50  0000 L CNN
+F 2 "$switch-dip:Pin_circle" H 5125 2250 50  0001 C CNN
+F 3 "" H 5125 2250 50  0001 C CNN
+	1    5125 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 1800 4025 1900
+Wire Wire Line
+	4025 2250 4150 2250
+Wire Wire Line
+	4750 2250 4850 2250
+Wire Wire Line
+	4850 2425 4850 2250
+Connection ~ 4850 2250
+Wire Wire Line
+	4850 2250 4975 2250
+Wire Wire Line
+	4850 2850 4850 2800
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 6150E95A
+P 6025 2250
+F 0 "SW3" H 6025 2505 50  0000 C CNN
+F 1 "SW_PUSH" H 6025 2414 50  0000 C CNN
+F 2 "$switch-dip:CherryMX_Choc_1u" H 6025 2250 50  0001 C CNN
+F 3 "" H 6025 2250 50  0000 C CNN
+	1    6025 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6150E960
+P 6425 2575
+F 0 "R3" H 6495 2621 50  0000 L CNN
+F 1 "R" H 6495 2530 50  0000 L CNN
+F 2 "$switch-dip:Register" V 6355 2575 50  0001 C CNN
+F 3 "~" H 6425 2575 50  0001 C CNN
+	1    6425 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:GIN GIN3
+U 1 1 6150E966
+P 6425 3000
+F 0 "GIN3" H 6503 3058 50  0000 L CNN
+F 1 "GIN" H 6425 3000 50  0001 C CNN
+F 2 "$switch-dip:Pin_rect" H 6425 3000 50  0001 C CNN
+F 3 "" H 6425 3000 50  0001 C CNN
+	1    6425 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:VIN VIN3
+U 1 1 6150E96C
+P 5600 1650
+F 0 "VIN3" H 5678 1592 50  0000 L CNN
+F 1 "VIN" H 5600 1800 50  0001 C CNN
+F 2 "$switch-dip:Pin_circle" H 5600 1650 50  0001 C CNN
+F 3 "" H 5600 1650 50  0001 C CNN
+	1    5600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:OUTPUT O3
+U 1 1 6150E972
+P 6700 2250
+F 0 "O3" H 6778 2301 50  0000 L CNN
+F 1 "OUTPUT" H 6778 2210 50  0000 L CNN
+F 2 "$switch-dip:Pin_circle" H 6700 2250 50  0001 C CNN
+F 3 "" H 6700 2250 50  0001 C CNN
+	1    6700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1800 5600 1900
+Wire Wire Line
+	5600 2250 5725 2250
+Wire Wire Line
+	6325 2250 6425 2250
+Wire Wire Line
+	6425 2425 6425 2250
+Connection ~ 6425 2250
+Wire Wire Line
+	6425 2250 6550 2250
+Wire Wire Line
+	6425 2850 6425 2800
+Wire Wire Line
+	5600 1900 4025 1900
+Connection ~ 5600 1900
+Wire Wire Line
+	5600 1900 5600 2250
+Connection ~ 4025 1900
+Wire Wire Line
+	4025 1900 4025 2250
+Wire Wire Line
+	4025 1900 2475 1900
+Connection ~ 2475 1900
+Wire Wire Line
+	2475 1900 2475 2250
+Wire Wire Line
+	3300 2800 4850 2800
+Connection ~ 3300 2800
+Wire Wire Line
+	3300 2800 3300 2725
+Connection ~ 4850 2800
+Wire Wire Line
+	4850 2800 4850 2725
+Wire Wire Line
+	4850 2800 6425 2800
+Connection ~ 6425 2800
+Wire Wire Line
+	6425 2800 6425 2725
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 61531766
+P 7550 2250
+F 0 "SW4" H 7550 2505 50  0000 C CNN
+F 1 "SW_PUSH" H 7550 2414 50  0000 C CNN
+F 2 "$switch-dip:CherryMX_Choc_1u" H 7550 2250 50  0001 C CNN
+F 3 "" H 7550 2250 50  0000 C CNN
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6153176C
+P 7950 2575
+F 0 "R4" H 8020 2621 50  0000 L CNN
+F 1 "R" H 8020 2530 50  0000 L CNN
+F 2 "$switch-dip:Register" V 7880 2575 50  0001 C CNN
+F 3 "~" H 7950 2575 50  0001 C CNN
+	1    7950 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:GIN GIN4
+U 1 1 61531772
+P 7950 3000
+F 0 "GIN4" H 8028 3058 50  0000 L CNN
+F 1 "GIN" H 7950 3000 50  0001 C CNN
+F 2 "$switch-dip:Pin_rect" H 7950 3000 50  0001 C CNN
+F 3 "" H 7950 3000 50  0001 C CNN
+	1    7950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:VIN VIN4
+U 1 1 61531778
+P 7125 1650
+F 0 "VIN4" H 7203 1592 50  0000 L CNN
+F 1 "VIN" H 7125 1800 50  0001 C CNN
+F 2 "$switch-dip:Pin_circle" H 7125 1650 50  0001 C CNN
+F 3 "" H 7125 1650 50  0001 C CNN
+	1    7125 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:OUTPUT O4
+U 1 1 6153177E
+P 8225 2250
+F 0 "O4" H 8303 2301 50  0000 L CNN
+F 1 "OUTPUT" H 8303 2210 50  0000 L CNN
+F 2 "$switch-dip:Pin_circle" H 8225 2250 50  0001 C CNN
+F 3 "" H 8225 2250 50  0001 C CNN
+	1    8225 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7125 1800 7125 1900
+Wire Wire Line
+	7125 2250 7250 2250
+Wire Wire Line
+	7850 2250 7950 2250
+Wire Wire Line
+	7950 2425 7950 2250
+Connection ~ 7950 2250
+Wire Wire Line
+	7950 2250 8075 2250
+Wire Wire Line
+	7950 2850 7950 2800
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 6153178B
+P 9125 2250
+F 0 "SW5" H 9125 2505 50  0000 C CNN
+F 1 "SW_PUSH" H 9125 2414 50  0000 C CNN
+F 2 "$switch-dip:CherryMX_Choc_1u" H 9125 2250 50  0001 C CNN
+F 3 "" H 9125 2250 50  0000 C CNN
+	1    9125 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61531791
+P 9525 2575
+F 0 "R5" H 9595 2621 50  0000 L CNN
+F 1 "R" H 9595 2530 50  0000 L CNN
+F 2 "$switch-dip:Register" V 9455 2575 50  0001 C CNN
+F 3 "~" H 9525 2575 50  0001 C CNN
+	1    9525 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:GIN GIN5
+U 1 1 61531797
+P 9525 3000
+F 0 "GIN5" H 9603 3058 50  0000 L CNN
+F 1 "GIN" H 9525 3000 50  0001 C CNN
+F 2 "$switch-dip:Pin_rect" H 9525 3000 50  0001 C CNN
+F 3 "" H 9525 3000 50  0001 C CNN
+	1    9525 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:VIN VIN5
+U 1 1 6153179D
+P 8700 1650
+F 0 "VIN5" H 8778 1592 50  0000 L CNN
+F 1 "VIN" H 8700 1800 50  0001 C CNN
+F 2 "$switch-dip:Pin_circle" H 8700 1650 50  0001 C CNN
+F 3 "" H 8700 1650 50  0001 C CNN
+	1    8700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L $switch-dip:OUTPUT O5
+U 1 1 615317A3
+P 9800 2250
+F 0 "O5" H 9878 2301 50  0000 L CNN
+F 1 "OUTPUT" H 9878 2210 50  0000 L CNN
+F 2 "$switch-dip:Pin_circle" H 9800 2250 50  0001 C CNN
+F 3 "" H 9800 2250 50  0001 C CNN
+	1    9800 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1800 8700 1900
+Wire Wire Line
+	8700 2250 8825 2250
+Wire Wire Line
+	9425 2250 9525 2250
+Wire Wire Line
+	9525 2425 9525 2250
+Connection ~ 9525 2250
+Wire Wire Line
+	9525 2250 9650 2250
+Wire Wire Line
+	9525 2850 9525 2800
+Wire Wire Line
+	8700 1900 7125 1900
+Connection ~ 8700 1900
+Wire Wire Line
+	8700 1900 8700 2250
+Connection ~ 7125 1900
+Wire Wire Line
+	7125 1900 7125 2250
+Wire Wire Line
+	7125 1900 5600 1900
+Wire Wire Line
+	6400 2800 6425 2800
+Connection ~ 7950 2800
+Wire Wire Line
+	7950 2800 7950 2725
+Wire Wire Line
+	7950 2800 9525 2800
+Connection ~ 9525 2800
+Wire Wire Line
+	9525 2800 9525 2725
+Wire Wire Line
+	5600 1900 5575 1900
+Wire Wire Line
+	6425 2800 7950 2800
+$EndSCHEMATC

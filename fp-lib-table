@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name $switch-dip)(type KiCad)(uri ${KIPRJMOD}/switch-dip.pretty)(options "")(descr ""))
+  (lib (name $ble-culculator)(type KiCad)(uri /home/nnyn/ghq/github.com/74th/esp32-ble-calculator/pcb/pretty)(options "")(descr ""))
+)

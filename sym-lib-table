@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name $switch-dip)(type Legacy)(uri ${KIPRJMOD}/symbol/switch-dip.lib)(options "")(descr ""))
+  (lib (name switch-dip-rescue)(type Legacy)(uri ${KIPRJMOD}/switch-dip-rescue.lib)(options "")(descr ""))
+)
