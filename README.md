@@ -11,6 +11,11 @@
 - PULL UP/PULL DOWN 抵抗と、PULL UP/PULL DOWN のための入力をもつ。VIN とは異なる GND or VCC につなげば良い。
 - GIN も GIN1~5 でつながっているため、どれか一つを GND or VCC につなげば良い。
 
-# ライセンス
+## 継承使用ライブラリ
+
+- [https://github.com/keebio/Keebio-Parts.pretty](https://github.com/keebio/Keebio-Parts.pretty)
+- [https:///github.com/foostan/kbd](https:///github.com/foostan/kbd)
+
+## ライセンス
 
 [CC BY 4.0](hhttps://creativecommons.org/licenses/by-sa/3.0/deed.jp]
